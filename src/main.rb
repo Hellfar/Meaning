@@ -1,3 +1,7 @@
 #!/usr/bin/env ruby
 
-puts "Hello !"
+if __FILE__ == $0
+	ARGV.each do|a|
+		puts "Argument: #{a}"
+	end
+end
